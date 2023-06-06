@@ -1,0 +1,26 @@
+/* Make the spinner rotate */
+
+.spinner{
+  scale: 10%;
+  position: absolute;
+  translate: -36rem -36rem;
+  animation: 2s 1 normal rotateSpinner;
+}
+
+@keyframes rotateSpinner{
+  from{
+    transform: rotate(360deg);
+  }
+}
+
+#chart {
+    border: 1px solid black;
+    position: absolute;
+    translate: 0rem 15rem;
+}
+
+#listOfStocks {
+  position: absolute;
+  translate: 0rem 7rem;
+  font-size: 20px;
+}
